@@ -1,0 +1,1884 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> MANN VAASAM </title>
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="nav">
+
+        <img src="./assest 1.png" class="mannimg1" />
+ 
+        <h3 class="navmann">
+            MANN VAASAM
+        </h3>
+
+        <div class="searchbox">
+            <i class="fa-solid fa-magnifying-glass search"></i>
+            <input type="text" class="navinput" placeholder="Search">
+        </div>
+
+        <button class="menu-btn" id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="navall">
+
+        <div class="navmedia">
+            <a href="#home" style="color:white;text-decoration: none;">
+                HOME
+            </a>
+            <a href="#explore" style="color:white;text-decoration: none;">
+                EXPLORE
+            </a>
+            <a href="#product" style="color:white;text-decoration: none;">
+                PRODUCT
+            </a>
+            <a href="#about" style="color:white;text-decoration: none;">
+                ABOUT
+            </a>
+        
+        </div>
+
+
+       <!-- CART -->
+
+    <div class="nav-cart" id="navCart">
+
+        <div class="cart-icon-wrapper">
+            <i class="fa-solid fa-cart-shopping cart-icon"></i>
+            <span id="cartCount">
+                0
+            </span>
+        </div>
+
+
+        <!-- CART DROPDOWN -->
+        <div class="cart-dropdown" id="cartDropdown">
+            <div class="cart-header">
+                <h3>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    Your Cart
+                </h3>
+
+                 <button
+        type="button"
+        class="close-cart"
+        id="closeCart"
+        aria-label="Close Cart">
+
+        <i class="fa-solid fa-xmark"></i>
+
+    </button>
+
+    
+            </div>
+
+            <!-- CART ITEMS -->
+            <div id="cartItems">
+                <p class="empty-cart">
+                    Your cart is empty
+                </p>
+            </div>
+
+            <!-- TOTAL -->
+            <div class="cart-total">
+                <span>
+                    Total
+                </span>
+
+                <strong id="cartTotal">
+                    ₹0.00
+                </strong>
+            </div>
+
+            <!-- CHECKOUT -->
+            <button
+                class="checkout-btn"
+                id="checkoutBtn">
+                CHECKOUT
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+
+    </div>
+
+    <button class="open-btn" id="openModalBtn">Login / Signup</button>
+
+     <div class="nav-actions">
+
+    <a href="tel:+919876543210" class="contact-btn">
+        <i class="fa-solid fa-phone"></i> CONTACT
+    </a>
+</div> 
+
+ 
+    <div class="overlay" id="overlay">
+        <div class="modal">
+        <div class="modal-header">
+             <h2 id="modalTitle">Login</h2>
+            <button class="close-btn" id="closeBtn">&times;</button>
+    </div>
+ 
+    
+    <div class="tabs">
+      <div class="tab active" id="loginTab">Login</div>
+      <div class="tab" id="signupTab">Signup</div>
+    </div>
+ 
+    <!-- LOGIN FORM -->
+    <form class="form-panel active" id="loginForm">
+      <input type="email" placeholder="Email address" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit" class="submit-btn">Login</button>
+      <p class="switch-text">Don't have an account? <span id="toSignup">Sign up</span></p>
+    </form>
+ 
+    <!-- SIGNUP FORM -->
+    <form class="form-panel" id="signupForm">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email address" required>
+      <input type="password" placeholder="Create Password" required>
+      <input type="password" placeholder="Confirm Password" required>
+      <button type="submit" class="submit-btn">Create Account</button>
+      <p class="switch-text">Already have an account? <span id="toLogin">Login</span></p>
+    </form>
+
+     <button class="cancel-btn" id="cancelBtn">
+    </button>
+
+        </div>
+        
+    </div>
+
+     </div>
+
+     <!-- <a href="tel:+919876543210" class="contact-btn">
+        <i class="fa-solid fa-phone"></i> CONTACT
+    </a> -->
+
+
+    </div> 
+
+    <div class="box1" id="home">
+
+        <button class="hundred">
+            <h4>
+                100% Natural
+            </h4>
+        </button>
+
+        <h1 class="firstmann">
+            Mann Vaasam
+        </h1>
+
+        <h2 class="secondmann">
+            Direct from form to home
+        </h2>
+
+        <div class="thirdmann">
+            <p> Experience the freshness of hand-picked vegetables </p>
+            <p> and,fruits delivered straight from our fields to your </p>
+            <p> doorstep- no middlemen, no chemicals. </p>
+        </div>
+
+        <button class="shop"  id="shopNow">
+            <p> Shop Now </p>
+        </button>
+
+        <button class="product"  id="exploremore">
+            <p> Explore More </p>
+        </button>
+    </div>
+
+    <div class="box2" id="explore">
+
+        <!-- <div class="emt">
+        </div> -->
+
+        <h1 class="cat">
+            Explore Categories
+        </h1>
+
+        <div>
+
+            <div class="circle circle1">
+                <img src="./assest vegetable.jpg" class="vege" />
+                <h2 class="circlename1">
+                    Vegetables
+                </h2>
+            </div>
+
+            <div class="circle circle2">
+                <img src="./assest fruits.png" class="vege" />
+                <h2 class="circlename2">
+                    Fruits
+                </h2>
+            </div>
+
+            <div class="circle circle3">
+                <img src="./assest eggs.jpg" class="vege" />
+                <h2 class="circlename2 circlename3">
+                    Eggs
+                </h2>
+            </div>
+
+            <div class="circle circle4">
+                <img src="./assest dairy products.png" class="vege" />
+                <h2 class="circlename1">
+                    Oils & Gee
+                </h2>
+            </div>
+
+            <div class="circle circle5">
+                <img src="./assest milk.avif" class="vege" />
+                <h2 class="circlename2">
+                    Dairy
+                </h2>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="box3" id="product">
+
+        <!-- <div class="emt">
+        </div> -->
+
+        <h2 class="our">
+            OUR PRODUCE
+        </h2>
+
+        <h1 class="fresh">
+            Fresh From the Farm
+        </h1>
+
+        <p class="hand1"> Hand-Picked, Chemical-Free Vegetables and Fruits - Harvested </p>
+        <p class="hand2"> Daily and Delivered Fresh. </p>
+    </div>
+
+<div class="box4" id="shopSection" >
+
+            
+    <section class="products">
+
+     <!---PRODUCT 1 -->
+
+    <div class="product-card">
+
+            <img src="./assest carrot.jpg" class="innerimg"/>
+
+        <div class="thunder">
+
+            <i class="fa-solid fa-bolt"></i>
+
+        </div>
+
+
+        <p class="min">
+            10 MINS
+        </p>
+
+
+        <p class="fresho">
+            Fresho!
+        </p>
+
+
+        <h2 class="product-name">
+            Carrot
+        </h2>
+
+
+        <!-- WEIGHT -->
+
+        <select class="weight-select">
+
+            <option value="1">
+                1 KG
+            </option>
+
+            <option value="3">
+                3 KG
+            </option>
+
+            <option value="5">
+                5 KG
+            </option>
+
+            <option value="10">
+                10 KG
+            </option>
+
+        </select>
+
+
+        <!-- PRICE -->
+
+        <h2 class="price">
+
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+
+            <span class="product-price">
+                15.95
+            </span>
+
+            <small>
+                / KG
+            </small>
+
+        </h2>
+
+
+        <!-- BUY -->
+
+        <button
+            class="buy"
+            data-name="Carrot"
+            data-price="15.95">
+
+            <p>
+                Buy Now
+            </p>
+
+            <i class="fa-solid fa-cart-plus"></i>
+
+        </button>
+
+    </div>
+
+
+
+    <!-- PRODUCT 2 -->
+
+    <div class="product-card">
+
+            <img src="./assest brinjal.jpg" class="innerimg"/>
+
+        <div class="thunder">
+
+            <i class="fa-solid fa-bolt"></i>
+
+        </div>
+
+
+        <p class="min">
+            10 MINS
+        </p>
+
+
+        <p class="fresho">
+            Fresho!
+        </p>
+
+
+        <h2 class="product-name">
+            Brinjal
+        </h2>
+
+
+        <select class="weight-select">
+
+            <option value="1">
+                1 KG
+            </option>
+
+            <option value="3">
+                3 KG
+            </option>
+
+            <option value="5">
+                5 KG
+            </option>
+
+            <option value="10">
+                10 KG
+            </option>
+
+        </select>
+
+
+        <h2 class="price">
+
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+
+            <span class="product-price">
+                25
+            </span>
+
+            <small>
+                / KG
+            </small>
+
+        </h2>
+
+
+        <button
+            class="buy"
+            data-name="brinjal"
+            data-price="25">
+
+            <p>
+                Buy Now
+            </p>
+
+            <i class="fa-solid fa-cart-plus"></i>
+
+        </button>
+
+    </div>
+
+
+
+    <!-- PRODUCT 3 -->
+
+    <div class="product-card">
+
+            <img src="./assest beans.jpg" class="innerimg"/>
+
+        <div class="thunder">
+
+            <i class="fa-solid fa-bolt"></i>
+
+        </div>
+
+
+        <p class="min">
+            10 MINS
+        </p>
+
+
+        <p class="fresho">
+            Fresho!
+        </p>
+
+
+        <h2 class="product-name">
+            beans
+        </h2>
+
+
+        <select class="weight-select">
+
+            <option value="1">
+                1 KG
+            </option>
+
+            <option value="3">
+                3 KG
+            </option>
+
+            <option value="5">
+                5 KG
+            </option>
+
+            <option value="10">
+                10 KG
+            </option>
+
+        </select>
+
+
+        <h2 class="price">
+
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+
+            <span class="product-price">
+                30
+            </span>
+
+            <small>
+                / KG
+            </small>
+
+        </h2>
+
+
+        <button
+            class="buy"
+            data-name="Beans"
+            data-price="30">
+
+            <p>
+                Buy Now
+            </p>
+
+            <i class="fa-solid fa-cart-plus"></i>
+
+        </button>
+
+    </div>
+
+     <!-- PRODUCT 4 -->
+
+    <div class="product-card">
+
+        <img src="./assest chilli.jpg" class="innerimg"/>
+
+        <div class="thunder">
+
+            <i class="fa-solid fa-bolt"></i>
+
+        </div>
+
+
+        <p class="min">
+            10 MINS
+        </p>
+
+
+        <p class="fresho">
+            Fresho!
+        </p>
+
+
+        <h2 class="product-name">
+            chilli
+        </h2>
+
+
+        <select class="weight-select">
+
+            <option value="1">
+                1 KG
+            </option>
+
+            <option value="3">
+                3 KG
+            </option>
+
+            <option value="5">
+                5 KG
+            </option>
+
+            <option value="10">
+                10 KG
+            </option>
+
+        </select>
+
+
+        <h2 class="price">
+
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+
+            <span class="product-price">
+                25
+            </span>
+
+            <small>
+                / KG
+            </small>
+
+        </h2>
+
+
+        <button
+            class="buy"
+            data-name="Chilli"
+            data-price="25">
+
+            <p>
+                Buy Now
+            </p>
+
+            <i class="fa-solid fa-cart-plus"></i>
+
+        </button>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================
+     CHECKOUT PAGE
+========================================= -->
+
+<section class="checkout-page" id="checkoutPage">
+
+    <div class="checkout-box">
+
+        <div class="success-icon">
+
+            <i class="fa-solid fa-check"></i>
+
+        </div>
+
+
+        <h1>
+            Order Checkout
+        </h1>
+
+
+        <p>
+            Your selected products
+        </p>
+
+
+        <div id="checkoutItems"></div>
+
+
+        <div class="checkout-final-total">
+
+            <span>
+                Total Amount
+            </span>
+
+            <strong id="checkoutTotal">
+                ₹0.00
+            </strong>
+
+        </div>
+
+
+        <button
+            class="place-order"
+            id="placeOrder">
+
+            PLACE ORDER
+
+            <i class="fa-solid fa-check"></i>
+
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     THANK YOU
+========================================= -->
+
+<section
+    class="thank-you"
+    id="thankYou">
+
+    <div class="thank-box">
+
+        <i class="fa-solid fa-circle-check"></i>
+
+        <h1>
+            Thank You!
+        </h1>
+
+        <h2>
+            Thank you for visiting
+            <span>MANN VAASAM</span>
+        </h2>
+
+        <p>
+            Your order has been successfully placed.
+        </p>
+
+        <button id="continueShopping">
+            CONTINUE SHOPPING
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     PRODUCTS
+========================================= -->
+
+<section class="products">
+
+
+    <!-- PRODUCT 5 -->
+
+    <div class="product-card">
+
+             <img src="./assest onion.jpg" class="innerimg"/>
+
+        <div class="thunder">
+
+            <i class="fa-solid fa-bolt"></i>
+
+        </div>
+
+
+        <p class="min">
+            10 MINS
+        </p>
+
+
+        <p class="fresho">
+            Fresho!
+        </p>
+
+
+        <h2 class="product-name">
+            Onion
+        </h2>
+
+
+        <!-- WEIGHT -->
+
+        <select class="weight-select">
+
+            <option value="1">
+                1 KG
+            </option>
+
+            <option value="3">
+                3 KG
+            </option>
+
+            <option value="5">
+                5 KG
+            </option>
+
+            <option value="10">
+                10 KG
+            </option>
+
+        </select>
+
+
+        <!-- PRICE -->
+
+        <h2 class="price">
+
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+
+            <span class="product-price">
+                15.95
+            </span>
+
+            <small>
+                / KG
+            </small>
+
+        </h2>
+
+
+        <!-- BUY -->
+
+        <button
+            class="buy"
+            data-name="Onion"
+            data-price="15.95">
+
+            <p>
+                Buy Now
+            </p>
+
+            <i class="fa-solid fa-cart-plus"></i>
+
+        </button>
+
+    </div>
+
+
+
+    <!-- PRODUCT 6 -->
+
+    <div class="product-card">
+
+            <img src="./assest ladies finger.jpg" class="innerimg"/>
+
+        <div class="thunder">
+
+            <i class="fa-solid fa-bolt"></i>
+
+        </div>
+
+
+        <p class="min">
+            10 MINS
+        </p>
+
+
+        <p class="fresho">
+            Fresho!
+        </p>
+
+
+        <h2 class="product-name">
+            Ladies Finger
+        </h2>
+
+
+        <select class="weight-select">
+
+            <option value="1">
+                1 KG
+            </option>
+
+            <option value="3">
+                3 KG
+            </option>
+
+            <option value="5">
+                5 KG
+            </option>
+
+            <option value="10">
+                10 KG
+            </option>
+
+        </select>
+
+
+        <h2 class="price">
+
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+
+            <span class="product-price">
+                25
+            </span>
+
+            <small>
+                / KG
+            </small>
+
+        </h2>
+
+
+        <button
+            class="buy"
+            data-name="Ladies Finger "
+            data-price="25">
+
+            <p>
+                Buy Now
+            </p>
+
+            <i class="fa-solid fa-cart-plus"></i>
+
+        </button>
+
+    </div>
+
+
+
+    <!-- PRODUCT 7 -->
+
+    <div class="product-card">
+
+             <img src="./assest tomato.jpg" class="innerimg"/>
+
+        <div class="thunder">
+
+            <i class="fa-solid fa-bolt"></i>
+
+        </div>
+
+
+        <p class="min">
+            10 MINS
+        </p>
+
+
+        <p class="fresho">
+            Fresho!
+        </p>
+
+
+        <h2 class="product-name">
+            Tomato
+        </h2>
+
+
+        <select class="weight-select">
+
+            <option value="1">
+                1 KG
+            </option>
+
+            <option value="3">
+                3 KG
+            </option>
+
+            <option value="5">
+                5 KG
+            </option>
+
+            <option value="10">
+                10 KG
+            </option>
+
+        </select>
+
+
+        <h2 class="price">
+
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+
+            <span class="product-price">
+                30
+            </span>
+
+            <small>
+                / KG
+            </small>
+
+        </h2>
+
+
+        <button
+            class="buy"
+            data-name="Tomato"
+            data-price="30">
+
+            <p>
+                Buy Now
+            </p>
+
+            <i class="fa-solid fa-cart-plus"></i>
+
+        </button>
+
+    </div>
+     <!-- PRODUCT 8 -->
+
+    <div class="product-card">
+
+             <img src="./assest guard.jpg" class="innerimg"/>
+
+        <div class="thunder">
+
+            <i class="fa-solid fa-bolt"></i>
+
+        </div>
+
+
+        <p class="min">
+            10 MINS
+        </p>
+
+
+        <p class="fresho">
+            Fresho!
+        </p>
+
+
+        <h2 class="product-name">
+            Ridge Guard
+        </h2>
+
+
+        <select class="weight-select">
+
+            <option value="1">
+                1 KG
+            </option>
+
+            <option value="3">
+                3 KG
+            </option>
+
+            <option value="5">
+                5 KG
+            </option>
+
+            <option value="10">
+                10 KG
+            </option>
+
+        </select>
+
+
+        <h2 class="price">
+
+            <i class="fa-solid fa-indian-rupee-sign"></i>
+
+            <span class="product-price">
+                25
+            </span>
+
+            <small>
+                / KG
+            </small>
+
+        </h2>
+
+
+        <button
+            class="buy"
+            data-name="RIdge Guard"
+            data-price="25">
+
+            <p>
+                Buy Now
+            </p>
+
+            <i class="fa-solid fa-cart-plus"></i>
+
+        </button>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================
+     CHECKOUT PAGE
+========================================= -->
+
+<section class="checkout-page" id="checkoutPage">
+
+    <div class="checkout-box">
+
+        <div class="success-icon">
+
+            <i class="fa-solid fa-check"></i>
+
+        </div>
+
+
+        <h1>
+            Order Checkout
+        </h1>
+
+
+        <p>
+            Your selected products
+        </p>
+
+
+        <div id="checkoutItems"></div>
+
+
+        <div class="checkout-final-total">
+
+            <span>
+                Total Amount
+            </span>
+
+            <strong id="checkoutTotal">
+                ₹0.00
+            </strong>
+
+        </div>
+
+
+        <button
+            class="place-order"
+            id="placeOrder">
+
+            PLACE ORDER
+
+            <i class="fa-solid fa-check"></i>
+
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     THANK YOU
+========================================= -->
+
+<section
+    class="thank-you"
+    id="thankYou">
+
+    <div class="thank-box">
+
+        <i class="fa-solid fa-circle-check"></i>
+
+        <h1>
+            Thank You!
+        </h1>
+
+        <h2>
+            Thank you for visiting
+            <span>MANN VAASAM</span>
+        </h2>
+
+        <p>
+            Your order has been successfully placed.
+        </p>
+
+        <button id="continueShopping">
+            CONTINUE SHOPPING
+        </button>
+
+    </div>
+
+</section>
+
+
+ 
+<div class="box6" style="background-color:beige;" id="productSection">
+ 
+    <h1 class="mor">
+        Explore More <i class="fa-solid fa-arrow-right"></i>
+    </h1>
+    <div class="simplediv"></div>
+    <div class="emt1"></div>
+ 
+    <div>
+        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=900&q=80"
+             class="agri" alt="Farm field rows" />
+    </div>
+ 
+    <div>
+        <img src="./assest 1.png"
+             class="agrimg" alt="Mann Vaasam logo" />
+    </div>
+ 
+    <div class="join">
+        <h1 class="framer">
+            Join Our Farmer Network
+        </h1>
+        <p class="sell">
+            Sell your product directly, grow your income
+            and be a part of the Mann Vaasam Family
+        </p>
+
+        
+        <!-- REGISTER BUTTON -->
+
+<a href="#" id="registerFarmerBtn" class="register-btn">
+    REGISTER AS FARMER
+    <i class="fa-solid fa-arrow-right"></i>
+</a>
+
+
+<!-- FARMER REGISTRATION POPUP -->
+
+<div class="modal-overlay" id="modalOverlay">
+
+    <div class="farmer-modal">
+
+        <!-- CLOSE BUTTON -->
+        <button type="button" class="close-btn" id="closeFormBtn">
+            &times;
+        </button>
+
+        <h2>Join Our Farmer Network</h2>
+
+        <p>
+            Register with Mann Vaasam and grow your business with us.
+        </p>
+
+
+        <!-- SUCCESS MESSAGE -->
+
+        <div class="success-msg" id="successMsg">
+
+            <div class="success-check">
+                &#10003;
+            </div>
+
+            <strong>Registered successfully!</strong>
+
+            <p>
+                Welcome to the Mann Vaasam family.
+                Our team will reach out within 2 business days
+                to complete your onboarding.
+            </p>
+
+        </div>
+
+
+        <!-- FORM -->
+
+        <form id="farmerForm" novalidate>
+
+            <!-- NAME -->
+
+            <div class="field" id="field-name">
+
+                <label for="fullName">
+                    Full name
+                </label>
+
+                <input
+                    type="text"
+                    id="fullName"
+                    placeholder="e.g. Ramesh Kumar"
+                >
+
+                <div class="error-msg">
+                    Enter your full name (at least 3 letters).
+                </div>
+
+            </div>
+
+
+            <!-- PHONE -->
+
+            <div class="field" id="field-phone">
+
+                <label for="phone">
+                    Phone number
+                </label>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="10-digit mobile number"
+                >
+
+                <div class="error-msg">
+                    Enter a valid 10-digit phone number.
+                </div>
+
+            </div>
+
+
+            <!-- EMAIL -->
+
+            <div class="field" id="field-email">
+
+                <label for="email">
+                    Email address
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="name@example.com"
+                >
+
+                <div class="error-msg">
+                    Enter a valid email address.
+                </div>
+
+            </div>
+
+
+            <!-- LOCATION -->
+
+            <div class="field" id="field-location">
+
+                <label for="location">
+                    Village / town
+                </label>
+
+                <input
+                    type="text"
+                    id="location"
+                    placeholder="e.g. Thiruvallur"
+                >
+
+                <div class="error-msg">
+                    Enter your village or town.
+                </div>
+
+            </div>
+
+
+            <!-- PRODUCE -->
+
+            <div class="field" id="field-produce">
+
+                <label for="produce">
+                    Primary produce
+                </label>
+
+                <select id="produce">
+
+                    <option value="">
+                        Select an option
+                    </option>
+
+                    <option value="vegetables">
+                        Vegetables
+                    </option>
+
+                    <option value="fruits">
+                        Fruits
+                    </option>
+
+                    <option value="grains">
+                        Grains
+                    </option>
+
+                    <option value="dairy">
+                        Dairy
+                    </option>
+
+                </select>
+
+                <div class="error-msg">
+                    Select what you primarily grow or produce.
+                </div>
+
+            </div>
+
+
+            <!-- LAND SIZE -->
+
+            <div class="field" id="field-landsize">
+
+                <label for="landSize">
+                    Land size (in acres)
+                </label>
+
+                <input
+                    type="number"
+                    id="landSize"
+                    placeholder="e.g. 2.5"
+                    min="0"
+                    step="0.1"
+                >
+
+                <div class="error-msg">
+                    Enter a land size greater than 0.
+                </div>
+
+            </div>
+
+
+            <!-- SUBMIT -->
+
+            <button type="submit" class="submit-btn">
+
+                Submit Registration
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+<!-- FONT AWESOME -->
+
+<!-- <script src="https://kit.fontawesome.com/your-kit-code.js"
+        crossorigin="anonymous"></script>
+
+<!-- YOUR JS -->
+
+<!-- <script src="script.js"></script>  -->
+    </div>
+
+    </div>
+</div>
+
+
+    <div class="box7">
+
+        <h1 class="story">
+            Our Story
+        </h1>
+        <div class="best">
+            <h1>
+                Best Quality & Best Price
+            </h1>
+            <h1 class="quaran">
+                Quaranteed
+            </h1>
+        </div>
+        <div>
+           <img src="./assest storyimg1.jpeg"
+           class="storyimg2"/>
+        </div>
+
+    </div>
+
+    <div class="box8">
+
+        <div>
+             <img src="./assest storyimg2.jpeg"
+           class="storyimg2"/>
+        </div>
+        <div class="storyimg3">
+            <h1 class="with">
+                Mann Vaasam Started With a Simple Vision - to
+                support local framers and provide customers
+                with fresh, natural and chemical - free produce.
+            </h1>
+
+            <h1 class="we">
+                We noticed formers were not getting fair Price
+                due to middlemen. So, we build a plateform that
+                creates a direct between framers and customers.
+            </h1>
+        </div>
+    </div>
+
+
+<div class="box9">
+
+    <div class="mission">
+        <span style="font-size:70px;color:darkred;position:absolute;left:55px;top:150px">
+            <i class="fa-solid fa-location-crosshairs"></i>
+        </span>
+        <h1 class="missioncont1">Our Mission</h1>
+        <p class="missioncont2">
+            To Empower farmers, promote natural
+            farming, and deliver fresh, chemical
+            free produce to every home.
+        </p>
+
+    <div class="more-info" id="moreInfoMission">
+        <p class="misscont"> 
+            At Mann Vaasam, our mission goes beyond just selling produce — we're building
+            a direct bridge between the hands that grow your food and the homes that need it.
+        </p>
+        <ul class="misscont1">
+            <li>Fair, transparent pricing that puts more money in farmers' pockets</li>
+            <li>100% natural farming practices — no harmful chemicals or pesticides</li>
+            <li>Same-day harvest to doorstep delivery for maximum freshness</li>
+            <li>Supporting local farming communities across India</li>
+        </ul>
+    </div>
+
+        <div class="view" id="viewBtnMission" onclick="toggleMore('Mission')">
+            <span id="viewLabelMission">VIEW MORE</span>
+            <span class="arrow" id="arrowIconMission">&#9660;</span>
+        </div>
+
+    </div>
+
+    <div class="vision">
+        <span style="font-size:70px;color:darkred;position:absolute;left:55px;top:150px">
+            <i class="fa-solid fa-eye"></i>
+        </span>
+        <h1 class="missioncont1">Our Vision</h1>
+        <p class="missioncont2">
+            To Build a sustainable and farmer-
+            friendly market place across india.
+        </p>
+
+        <div class="more-vission" id="moreInfoVision">
+        <p class="misscont">
+            We envision a future where every farmer has direct access to markets, and every
+            household has access to fresh, honest food — without middlemen standing in the way.
+        </p>
+        <ul class="misscont1">
+            <li>Building India's most trusted farmer-to-home marketplace</li>
+            <li>Empowering small and marginal farmers with fair digital access</li>
+            <li>Reducing food waste through efficient, local supply chains</li>
+            <li>Creating a sustainable model that benefits both growers and buyers</li>
+        </ul>
+
+        </div>
+
+        <div class="view" id="viewBtnVision" onclick="toggleMore('Vision')">
+            <span id="viewLabelVision">VIEW MORE</span>
+            <span class="arrow" id="arrowIconVision">&#9660;</span>
+        </div>
+
+    </div>
+</div>
+
+    <div class="box10">
+
+        <div class="emt3">
+        </div>
+        <video autoplay muted loop src="./assest agriculture.mp4" class="video1">
+        </video>
+        <h1 class="long">
+            Vegetables For Long Life
+        </h1>
+        <p class="step"> 
+            "Adding fresh vegetables to your daily diet is the
+            simplest step towards a longer, healthier life." 
+        </p>
+        <button class="now">
+            <h1> Shop Now <i class="fa-solid fa-caret-right"></i> </h1>
+        </button>
+
+    </div>
+
+    <div class="box11">
+
+        <!-- <div class="emt4">
+        </div> -->
+
+        <h2 class="why">
+            WHY CHOOSE US
+        </h2>
+
+        <h1 class="the">
+            Tha Mann Vaasam Promise
+        </h1>
+
+        <div>
+            <div class="form form1">
+                <img src="https://thumbs.dreamstime.com/b/no-handshake-icon-vector-illustration-no-dealing-no-collaboration-isolated-white-eps-no-handshake-icon-vector-illustration-no-177559776.jpg"
+                    class="formimg" />
+                <h2 class="formcon1">
+                    No middlemen
+                </h2>
+                <p class="formcon2">
+                    Direct From Framer to Customer
+                </p>
+            </div>
+
+            <div class="form form2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtIj5-CGGW-QVod2_ZA66TMdjtR0YQqqGXGA&s"
+                    class="formimg" />
+                <h2 class="formcon3">
+                    Fresh From Form
+                </h2>
+                <p class="formcon2">
+                    Harvested and delivered Fresh
+                </p>
+            </div>
+
+            <div class="form form3">
+                <img src="data:image/jpeg;base64,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"
+                    class="formimg" />
+                <h2 class="formcon4">
+                    Fair Price For Farmers
+                </h2>
+                <p class="formcon2">
+                    Farmers Get Better income
+                </p>
+            </div>
+
+            <div class="form form4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAafODvry4lCkK7Y7rCDFZDgDaEULO-CbRSA&s"
+                    class="formimg" />
+                <h2 class="formcon5">
+                    Quality Assurance
+                </h2>
+                <p class="formcon2">
+                    Natural and Sale products
+                </p>
+            </div>
+        </div>
+
+        <!-- <div class="emt5">
+        </div> -->
+    </div>
+
+    <div class="box12">
+
+        <h1 class="tour">
+            FARM TOUR
+        </h1>
+        <h1 class="glimpse">
+            A GLIMPSE OF OUR FIELD
+        </h1>
+
+        <div class="tourimg">
+
+                <img src="./assest form1.jpg"
+                    class="tourimg1" />
+            
+                <img src="./assest form2.jpg"
+                    class="tourimg2" />
+        
+                <img src="./assest form 3.jpeg"
+                    class="tourimg3" />
+    
+        </div>
+    </div>
+
+    <div class="box13">
+
+        <div class="tourimg">
+        
+                <img src="./assest from4.jpg"
+                    class="tourimg4" />
+    
+                <img src="./assest form 5.jpg"
+                    class="tourimg5" />
+    
+                <img src="./assest form6.jpg" 
+                    class="tourimg6" />
+        </div>
+    </div>
+
+    <div class="box14" id="shop">
+        <!-- <div class="emt4">
+        </div> -->
+        <div class="slider">
+
+            <!-- First slider -->
+
+            <div class="slide slide1">
+                    <button class="now1">
+                        <h1> Shop Now <i class="fa-solid fa-caret-right"></i> </h1>
+                    </button>
+            </div>
+
+            <!-- // second slider// -->
+            <div class="slide slide2">
+                    <button class="now1">
+                        <h1> Shop Now <i class="fa-solid fa-caret-right"></i> </h1>
+                    </button>
+            </div>
+
+            <!-- // third slider// -->
+            <div class="slide slide3">
+                    <button class="now1">
+                        <h1> Shop Now <i class="fa-solid fa-caret-right"></i> </h1>
+                    </button>
+            </div>
+
+            <!-- // fourth slider// -->
+            <div class="slide slide4">
+                    <button class="now1" id="show">
+                        <h1> Shop Now <i class="fa-solid fa-caret-right"></i> </h1>
+                    </button>
+            </div>
+        </div>
+
+        <!-- <div class="emt3">
+        </div> -->
+    </div>
+
+    <div class="box15" id="about">
+        <!-- <div class="emt3">
+        </div> -->
+        <h1 class="how">
+            HOW IT WORK
+        </h1>
+        <div>
+            <div class="work work1">
+                <img src="https://thumbs.dreamstime.com/b/vibrant-assortment-fresh-vegetables-herbs-displayed-woven-basket-held-hand-image-captures-essence-363936846.jpg"
+                    class="workimg" />
+                <h1 class="arrow"> <i class="fa-solid fa-right-long"></i> </h1>
+                <h1 class="list">
+                    Farmers List products
+                </h1>
+                <p class="plate">
+                    Farmers directly fresh produce directly on ourplateform.
+                </p>
+            </div>
+
+            <div class="work work2">
+                <img src="data:image/jpeg;base64,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"
+                    class="workimg" />
+                <h1 class="arrow"> <i class="fa-solid fa-right-long"></i> </h1>
+                <h1 class="list">
+                    Customers Order Online
+                </h1>
+                <p class="plate">
+                    Brows and place orders for your favorite farm-fresh products.
+                </p>
+            </div>
+
+            <div class="work work3">
+                <img src="https://static.vecteezy.com/system/resources/previews/055/419/913/non_2x/cheerful-cartoon-delivery-boy-riding-a-red-scooter-isolated-transparent-background-free-png.png"
+                    class="workimg" />
+                <h1 class="list">
+                    Direct Delivery to Home
+                </h1>
+                <p class="plate">
+                    We delivery directly from the fram to your doorstep fresh & on time.
+                </p>
+            </div>
+        </div>
+        <!-- <div class="emt5">
+        </div> -->
+    </div>
+
+    <div class="box16">
+
+        <h2 class="get">
+            GET IN TOUCH
+        </h2>
+        <h1 class="order">
+            Order Fresh Produce
+        </h1>
+    
+            <img src="https://img.freepik.com/premium-photo/potato-plantations-grow-field-vegetable-rows-farming-agriculture-landscape_72572-50.jpg"
+                class="argiculture1" />
+
+        <div class="argiculture2">
+
+            <div class="whatsapp-order-box">
+
+                <label class="labelfont"> Your Name </label>
+                <input type="text" class="name" id="userName" placeholder="Enter your Name">
+
+                <label class="labelfont">Phone Number</label>
+                <input type="text" class="name" id="userPhone" placeholder="Enter your Number">
+
+                <label class="labelfont">Message (optional)</label>
+                <textarea id="userMessage" class="name" placeholder=""></textarea>
+
+                <button class="via" id="orderBtn">Order Via Whatsapp</button>
+            </div>
+        </div>
+
+        <div class="emt5">
+        </div>
+    </div>
+
+<div class="box17">
+    <div class="last last1">
+        <!-- <img src="./assest 1.png" class="lastimg" /> -->     <div>
+        <img src="./assest 1.png"
+             class="agrimg" alt="Mann Vaasam logo" />
+    </div>
+
+        <h3 class="vaasam">
+            Mann Vaasam
+        </h3>
+        <p>
+            Direct from farm to home, organic and chemical - free
+            produce delivered to your doorstep
+        </p>
+    </div>
+ 
+    <div class="last last2">
+        <h4 class="quick">
+            Quick Links
+        </h4>
+        <ul class="footlinks">
+            <li><a href="#" class="footlink" style="color:white;text-decoration: none;">Home</a></li>
+            <li><a href="#" class="footlink" style="color:white;text-decoration: none;">Product</a></li>
+            <li><a href="#" class="footlink" style="color:white;text-decoration: none;">About us</a></li>
+            <li>
+                <span class="footlink expand-toggle" data-target="panel-contact">Explore</span>
+                <div class="expand-panel" id="panel-contact">
+                    Reach out for bulk orders, subscription boxes, or farm visits.
+                    Our team replies within 24 hours on weekdays.
+                </div>
+            </li>
+        </ul>
+    </div>
+ 
+    <div class="last last3">
+        <h4 class="quick">
+            Categories
+        </h4>
+        <ul class="footlinks">
+            <li><a href="#" class="footlink" style="color:white;text-decoration: none;">Vegetables</a></li>
+            <li><a href="#" class="footlink" style="color:white;text-decoration: none;">Fruits</a></li>
+            <li><a href="#" class="footlink" style="color:white;text-decoration: none;">Grains</a></li>
+            <li>
+                <span class="footlink expand-toggle" data-target="panel-dairy">dairy</span>
+                <div class="expand-panel" id="panel-dairy">
+                    Farm-fresh milk, curd, ghee and paneer, sourced daily from
+                    partner dairies within 50 km of Chennai.
+                </div>
+            </li>
+        </ul>
+    </div>
+ 
+    <div class="last last4">
+        <h4 class="quick">
+            Contact
+        </h4>
+        <ul class="footlinks">
+            <li><a href="tel:+91 93454 86145" class="footlink" style="color:white;text-decoration: none;">+91 93454 86145 </a></li>
+            <li><a href="mailto:eaxmple@gamil.com" class="footlink" style="color:white;text-decoration: none;">santhosh1272006@gmail.com</a></li>
+            <li>
+                <span class="footlink expand-toggle" data-target="panel-address">chennai,tamilnadu.</span>
+                <div class="expand-panel" id="panel-address">
+                    Mann Vaasam Farms Collective,<br>
+                    No. 12, Old Mahabalipuram Road,<br>
+                    Chennai, Tamil Nadu &mdash; 600096
+                </div>
+            </li>
+        </ul>
+    </div>
+ 
+   <!-- FOOTER -->
+
+<div class="footer-explore">
+
+    <p class="Reserved">
+        @2026 Mann Vaasam.
+    </p>
+
+    <!-- EXPLORE BUTTON -->
+
+    <button class="explore-toggle" id="exploreBtn">
+
+        <span>EXPLORE</span>
+
+        <i class="fa-solid fa-arrow-right"></i>
+
+    </button>
+
+</div>
+
+
+<!-- EXPAND CONTENT -->
+
+<div class="expand-panel terms-panel" id="panel-terms">
+
+    <div class="terms-content">
+
+        <!-- TERMS -->
+
+        <div class="terms-box">
+
+            <div class="terms-icon">
+                <i class="fa-solid fa-file-contract"></i>
+            </div>
+
+            <h5>Terms of Use</h5>
+
+            <p>
+                By ordering from Mann Vaasam you agree to provide
+                accurate delivery details and to inspect produce on
+                arrival. Damaged or incorrect items must be reported
+                within 24 hours for a replacement or refund.
+            </p>
+
+        </div>
+
+
+        <!-- PRIVACY -->
+
+        <div class="terms-box">
+
+            <div class="terms-icon">
+                <i class="fa-solid fa-shield-halved"></i>
+            </div>
+
+            <h5>Privacy</h5>
+
+            <p>
+                We collect only the contact and address details needed
+                to fulfil your order and never sell your information
+                to third parties.
+            </p>
+
+        </div>
+
+        <!-- DELIVERY -->
+
+         <div class="terms-box">
+
+            <div class="terms-icon">
+                <i class="fa-solid fa-truck"></i>
+            </div>
+
+            <h5>Delivery</h5>
+
+            <p>
+                We carefully pack and deliver fresh farm products.
+                Delivery times may vary depending on location,
+                weather and product availability.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <script src="./index.js">
+    </script>
+
+</body>
+
+</html>
